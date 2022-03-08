@@ -1,0 +1,11 @@
+x=input('enter string')
+v=0
+c=0
+for i in range (0,len(x)):
+    if(a[i]!=' '):
+              if(a[i]=='a' or a[i]=='e' or a[i]=='i' or a[i]=='o' or a[i]=='u'):
+                       v=v+1
+               else:
+                       c=c+1
+print('total v's =',v)
+print('total c's=',c)
